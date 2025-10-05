@@ -28,7 +28,8 @@ This project is a modern, animated admin panel designed for an online learning p
 
 ## 📸 Screenshots
 
-Coming soon...
+<img width="1820" height="895" alt="image" src="https://github.com/user-attachments/assets/64196aa8-e6a6-4c14-9d41-84ed0d87e944" />
+
 
 ## 🚀 Getting Started
 
