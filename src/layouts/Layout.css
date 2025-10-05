@@ -1,0 +1,15 @@
+ .layout-root {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.layout-content {
+  flex: 1;
+  overflow-y: auto;
+  height: 100vh;
+  background-color: #f9fbfc;
+  position: relative;
+  padding-bottom: 30px;
+  transition: margin-left 0.3s ease-in-out;
+}

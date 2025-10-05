@@ -1,0 +1,35 @@
+.info-card {
+  background-color: var(--background-color);   
+  overflow: hidden;                     
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius-size);  
+  border: var(--border-settings); 
+  transition: all 0.3s ease;
+}
+
+.card-content {
+  padding: 20px 16px;
+}
+
+.card-label-text {
+  display: flex;          
+  align-items: center;      
+  font-size: 16px;       
+  font-weight: 500;         
+  color: var(--title-color);            
+}
+
+.card-value-text {
+  margin-top: 4px;    
+  margin-bottom: 0px;  
+  font-size: 30px;       
+  font-weight: 600;        
+  color: var(--main-text-color);    
+}
+
+
+@media (min-width: 640px) {
+  .card-content {
+    padding: 24px;
+  }
+}

@@ -1,0 +1,49 @@
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 18px; 
+  font-weight: 600;
+  color: var(--main-text-color);
+  margin: 0;
+}
+
+.profile-email {
+  color: var(--main-text-color);
+  margin: 4px 0 0 0;
+}
+
+
+@media (min-width: 640px) {
+  .profile-info {
+    text-align: left;
+  }
+
+   .profile-box {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .profile-email {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+}

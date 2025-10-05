@@ -1,0 +1,17 @@
+.settings-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.settings-header-icon {
+  flex-shrink: 0;
+}
+
+.settings-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--title-color);
+  margin: 0; 
+}
